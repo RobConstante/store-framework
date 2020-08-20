@@ -17,9 +17,11 @@
     color: gray;
     background-color: white;
     border: transparent;
-    max-width:1260px;
     margin: 0 auto;
     padding: 0;
+}
+.infoCardContainer{
+    max-width:1260px;
 }
 .infoCardContainer--vintage {
     background-color: #edcfd1
