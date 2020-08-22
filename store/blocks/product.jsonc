@@ -4,13 +4,9 @@
       "breadcrumb",
       "flex-layout.row#main",
       "product-identifier.product",
+      "sku-selector",
       "product-quantity"
     ]
-  },
-  "product-quantity": {
-    "props": {
-      "warningQuantityThreshold": 9999999
-    }
   },
   "flex-layout.row#main": { 
     "props": { 
