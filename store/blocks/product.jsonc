@@ -3,8 +3,14 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "product-identifier.product"
+      "product-identifier.product",
+      "product-quantity"
     ]
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
   },
   "flex-layout.row#main": { 
     "props": { 
@@ -29,7 +35,8 @@
      "product-price", 
      "flex-layout.row#qty-sku",
      "product-name",
-     "product-identifier.product"
+     "product-identifier.product",
+     "buy-button"
     ]
   },
   "product-price":{
